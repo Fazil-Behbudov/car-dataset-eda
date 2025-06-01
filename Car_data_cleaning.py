@@ -28,6 +28,7 @@ data.rename(columns={'Yürüş' : 'Yürüş(Km)'},inplace=True)
 
 data['len'] = data['Extra'].apply(lambda x : len(str(x)))
 data[data['len'] == 213]
+print("Salam")
 data.loc[8:8,'Extra'].unique()
 
 data['Yüngül lehimli disklər'] = data.Extra.apply(lambda x:np.nan if pd.isna(x) else 'var' if 'Yüngül lehimli disklər' in x else 'yox')
