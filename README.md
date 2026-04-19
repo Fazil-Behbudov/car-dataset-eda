@@ -1,4 +1,4 @@
-# Car Dataset Cleaning Task
+# Car Dataset Exploratory Data Analysis (EDA)
 
 ## 📊 Project Overview
 
